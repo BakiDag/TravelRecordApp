@@ -27,9 +27,7 @@ namespace TravelRecordApp
             {
                 conn.CreateTable<Post>();
                 List<Post> posts = conn.Table<Post>().ToList();
-            }
-            
-           
+            }            
         }
     }
 }

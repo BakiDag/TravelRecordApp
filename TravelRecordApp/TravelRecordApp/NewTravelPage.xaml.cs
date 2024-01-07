@@ -22,7 +22,7 @@ namespace TravelRecordApp
         {
             Post post = new Post()
             {
-                Experience = experienceEntry.Text + Id
+                Experience = experienceEntry.Text +" "+ Id
             };
             using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
             {
